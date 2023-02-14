@@ -19,7 +19,6 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         stage.setTitle("Drawing Operations Test");
-        drawShapes(gc);
         root.getChildren().add(canvas);
         stage.setScene(new Scene(root,400,400));
         moveCanvas(60,50);
@@ -72,7 +71,7 @@ public class HelloApplication extends Application {
         gc.stroke();
     }
 
-    private void drawShapes(GraphicsContext gc) {
+    /*private void drawShapes(GraphicsContext gc) {
         gc.setFill(Color.GREEN);
         gc.setStroke(Color.BLUE);
         gc.setLineWidth(5);
@@ -94,6 +93,10 @@ public class HelloApplication extends Application {
         gc.strokePolyline(new double[]{110, 140, 110, 140},
                 new double[]{210, 210, 240, 240}, 4);
         }
+
+     */
+
+
     }
 
 
