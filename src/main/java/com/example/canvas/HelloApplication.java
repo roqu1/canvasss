@@ -51,6 +51,7 @@ public class HelloApplication extends Application {
                 new Stop(0.0, firstColor),
                 new Stop(1.0, lastColor)) );
         gc.fill();
+
     }
 
     private void drawDropShadow(Color firstColor, Color secondColor,
